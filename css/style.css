@@ -32,6 +32,12 @@ a {
   border: 1px solid #fe775a;
  }
 
+.cta {
+  padding: 23px 35px;
+  margin-bottom: 25px;
+  position: static;
+}
+
 .btn-bordi {
   border: 1px solid #fe775a;
   color: #fe775a;
@@ -118,19 +124,29 @@ img, .lista-menu {
 /* hero */
 .hero {
   width: 100%;
-}
-
-.hero-wrapper.centrato {
-  width: 100%;
   height: 659px;
   background-image: url(../img/jumbotron.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
-}
-.hero {
   background-color: #fef6ef;
   position: relative;
+}
+
+.titolo {
+  max-width: 50%;
+}
+
+.titolo h1 {
+  font-size: 50px;
+  color: #33475b;
+}
+
+.titolo p {
+  color: #33475b;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 16px;
 }
 
 .separatore {
@@ -142,6 +158,21 @@ img, .lista-menu {
   border-top: 4px solid #33475b;
   border-bottom: 4px solid #33475b;
 }
+
+span {
+  text-transform: uppercase;
+}
+
+.titolo > h1 {
+  margin-bottom: 30px;
+}
+.titolo > p {
+  margin-bottom: 52px;
+}
+.titolo > .titolo-small {
+  margin-top: 60px;
+}
+
 /* /hero */
 
 
