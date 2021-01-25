@@ -9,13 +9,79 @@ body {
 }
 
 .centrato {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
-.nav-bar {
-  background-color: red;
+a {
+  text-decoration:none;
+  color: black;
 }
+/* bottone */
+
+.btn-orange {
+  border-radius: 5px;
+  color: white;
+  background-color: #fe775a;
+  padding: 12px 10px;
+  border: 1px solid #fe775a;
+ }
+
+.btn-bordi {
+  border: 1px solid #fe775a;
+  color: #fe775a;
+  border-radius: 5px;
+  padding: 12px 10px;
+}
+
+/* / bottone */
+
+/* .nav-bar {
+  background-color: red;
+} */
+
+li {
+  display: inline-block;
+}
+.nav-bar-wrapper.centrato {
+  position: relative;
+}
+
+.nav-bar-wrapper.centrato ul {
+  padding: 30px 0;
+}
+
+.dx-lista {
+  position: absolute;
+  right: 0;
+}
+
+.dx-lista li {
+  padding-left: 25px
+}
+
+.fas.fa-search {
+  color: #01a4bd;
+}
+.sx-lista li:first-child {
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+.sx-lista li:last-child {
+  padding-left: 15px;
+}
+
+.sx-lista, .dx-lista {
+  display: inline-block;
+}
+
+
+
+
+
+
+
 
 .nav-menu {
   background-color: lightgrey;
