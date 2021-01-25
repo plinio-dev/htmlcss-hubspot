@@ -7,3 +7,38 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.centrato {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  background-color: red;
+}
+
+.nav-menu {
+  background-color: lightgrey;
+}
+.hero {
+  background-color: #fff2ee
+}
+
+.separatore {
+  background-color: #afebe4;
+}
+#uno {
+  background-color: #f4f9fd;
+}
+
+#due {
+  background-color: #01a4bc;
+}
+
+#tre {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #32495b;
+}
