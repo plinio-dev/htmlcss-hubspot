@@ -113,27 +113,43 @@ img, .lista-menu {
 .lista-menu li i, .lista-menu li  {
   padding-left: 20px;
 }
-
-
-
-
-
-
 /* /nav-menu */
 
-
-
-
-
-
+/* hero */
 .hero {
-  background-color: #fff2ee
+  width: 100%;
+}
+
+.hero-wrapper.centrato {
+  width: 100%;
+  height: 659px;
+  background-image: url(../img/jumbotron.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero {
+  background-color: #fef6ef;
+  position: relative;
 }
 
 .separatore {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 80px;
   background-color: #afebe4;
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
 }
+/* /hero */
+
+
+
+
+
 #uno {
+  height: 1000px;
   background-color: #f4f9fd;
 }
 
