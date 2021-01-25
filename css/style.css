@@ -17,8 +17,13 @@ a {
   text-decoration:none;
   color: black;
 }
-/* bottone */
 
+.fas.fa-angle-down {
+  font-size: 20px;
+  vertical-align: middle;
+
+}
+/* bottone */
 .btn-orange {
   border-radius: 5px;
   color: white;
@@ -33,16 +38,19 @@ a {
   border-radius: 5px;
   padding: 12px 10px;
 }
+/* /bottone */
 
-/* / bottone */
+/* navbar */
+.nav-bar {
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
+}
 
-/* .nav-bar {
-  background-color: red;
-} */
-
-li {
+* li, * ul {
   display: inline-block;
 }
+
+
 .nav-bar-wrapper.centrato {
   position: relative;
 }
@@ -75,17 +83,49 @@ li {
 .sx-lista, .dx-lista {
   display: inline-block;
 }
+/* /navbar */
 
-
-
-
-
-
-
-
+/* nav-menu */
 .nav-menu {
-  background-color: lightgrey;
+  background-color: #fff;
 }
+
+.nav-menu-wrapper.centrato {
+  height: 80px;
+  position: relative;
+}
+
+#logo {
+  vertical-align: middle;
+}
+
+img, .lista-menu {
+  padding: 25px 0;
+}
+
+.lista-menu {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  vertical-align: middle;
+}
+
+.lista-menu li i, .lista-menu li  {
+  padding-left: 20px;
+}
+
+
+
+
+
+
+/* /nav-menu */
+
+
+
+
+
+
 .hero {
   background-color: #fff2ee
 }
