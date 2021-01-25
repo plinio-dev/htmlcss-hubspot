@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration:none;
-  color: black;
+  color: #33475b;
 }
 
 .fas.fa-angle-down {
@@ -23,7 +23,7 @@ a {
   vertical-align: middle;
 
 }
-/* bottone */
+/* bottoni */
 .btn-orange {
   border-radius: 5px;
   color: white;
@@ -44,7 +44,7 @@ a {
   border-radius: 5px;
   padding: 12px 10px;
 }
-/* /bottone */
+/* /bottoni */
 
 /* navbar */
 .nav-bar {
@@ -54,6 +54,8 @@ a {
 
 * li, * ul {
   display: inline-block;
+  font-weight: 500;
+  color: #33475b;
 }
 
 
@@ -70,13 +72,18 @@ a {
   right: 0;
 }
 
-.dx-lista li {
-  padding-left: 25px
+.dx-lista > li {
+  padding-left: 25px;
 }
 
 .fas.fa-search {
   color: #01a4bd;
 }
+
+.dx-lista > li, .sx-lista > li {
+  color: #33475b;
+}
+
 .sx-lista li:first-child {
   border-right: 1px solid black;
   padding-right: 15px;
@@ -114,6 +121,7 @@ img, .lista-menu {
   right: 0;
   top: 6px;
   vertical-align: middle;
+  color: #33475b;
 }
 
 .lista-menu li i, .lista-menu li  {
@@ -172,12 +180,7 @@ span {
 .titolo > .titolo-small {
   margin-top: 60px;
 }
-
 /* /hero */
-
-
-
-
 
 #uno {
   height: 1000px;
