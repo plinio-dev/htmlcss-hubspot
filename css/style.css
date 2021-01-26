@@ -11,6 +11,7 @@ body {
 
 section {
   width: 100%;
+  display: block;
 }
 
 a {
@@ -228,7 +229,6 @@ span {
 /* uno */
 #uno {
   background-color: #f4f9fd;
-  height: 1000px;
 }
 
 .uno-wrapper.centrato > img {
@@ -266,7 +266,7 @@ span {
 }
 
 .col1-row1 > img {
-  height: 160px;
+  height: 140px;
   margin-bottom: 30px;
   vertical-align: middle;
 }
@@ -284,7 +284,7 @@ span {
   float: left;
 }
 
-.col2-row1 > h3 {
+.col2-row1 > h3, .box > h3 {
   font-size: 30px;
   vertical-align: middle;
 }
@@ -316,18 +316,50 @@ span {
   margin: 0 15px;
 
 }
-.col2-row1 ul li i:first-child {
+
+#check1 {
   margin-left: 0;
 }
+
+.row2-uno {
+  height: 700px;
+}
+
+.col-left {
+  height: 700px;
+  padding: 15px;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.box > img {
+  height: 140px;
+}
+
+.box > p {
+  padding: 42px;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 16px;
+}
+
+
+
+
 /* /uno */
 
 /* due */
-#due {
+.due {
   background-color: #01a4bc;
 }
-/* due */
+.due-wrapper {
+  height: 800px;
+  float: none;
 
-#tre {
+}
+ /* due */
+
+.tre {
   background-color: #ffffff;
 }
 /* /corpo */
