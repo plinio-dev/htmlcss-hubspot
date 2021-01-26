@@ -352,6 +352,10 @@ span {
   text-align: center;
 }
 
+.box {
+  padding: 10px;
+}
+
 .box > img {
   height: 140px;
 }
@@ -389,16 +393,70 @@ span {
 
 /* due */
 .due {
-  background-color: #01a4bc;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 .due-wrapper {
   height: 800px;
 }
+
+.due-wrapper > h2 {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 31px;
+  padding: 40px 0;
+  width: 90%
+}
+
+.due-wrapper > p {
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.row1-tab {
+  border-bottom: 1px solid white;
+}
+
+.cell1 {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  width: 24.7%;
+  height: 200px;
+  text-align: center;
+  padding: 27px;
+  border-right: 1px solid white;
+}
+.row1-tab .cell1:last-child, .row2-tab .cell1:last-child {
+  border-right: 0;
+}
+
+.data {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.cell1 p span {
+  margin-left: 4px;
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: lighter;
+}
+
+
  /* due */
 
+
+/* tre */
 .tre {
   background-color: #ffffff;
 }
+/* tre */
 
 
 
