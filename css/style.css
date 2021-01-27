@@ -16,7 +16,6 @@ section {
 
 a {
   text-decoration:none;
-  color: #33475b;
 }
 
 h4 {
@@ -25,8 +24,9 @@ h4 {
   display: inline-block
 }
 
-ul {
-  list-style: none;
+* li, * ul {
+  display: inline-block;
+  font-weight: 500;
 }
 
 /* mix */
@@ -58,7 +58,7 @@ ul {
 }
 
 .linea {
-  border: 1px solid grey;
+  border: 1px solid;
   display: inline-block;
 }
 /* /mix */
@@ -90,15 +90,20 @@ ul {
 .btn-bordi:hover {
   background-color: #ff7a592e;
   transition: .3s ease-in-out;
+  color: #fe775a;
 }
 
 .btn-orange:hover, .cta:hover {
   background-color: #ff7a595c;
   transition: .3s ease-in-out;
+  color: #fff;
 }
 
- li a:hover {
+a:hover {
   color: #01a4bd;
+}
+li a {
+  color: #33475b;
 }
 /* /hover */
 
@@ -107,13 +112,6 @@ ul {
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
 }
-
-* li, * ul {
-  display: inline-block;
-  font-weight: 500;
-  color: #33475b;
-}
-
 
 .nav-bar-wrapper.centrato {
   position: relative;
@@ -134,10 +132,6 @@ ul {
 
 .fas.fa-search {
   color: #01a4bd;
-}
-
-.dx-lista > li, .sx-lista > li {
-  color: #33475b;
 }
 
 .sx-lista li:first-child {
@@ -274,7 +268,6 @@ span {
 }
 
 .col1-row1 {
-  /* height: 350px; */
   width: 25%;
   padding: 60px 0 60px 50px;
   text-align: center;
@@ -372,6 +365,7 @@ span {
 }
 
 .box > .linea {
+  color: grey;
   width: 80%;
 }
 
@@ -452,7 +446,7 @@ span {
   vertical-align: middle;
   font-weight: lighter;
 }
- /* due */
+/* due */
 
 /* tre */
 .tre {
@@ -511,16 +505,6 @@ span {
   width: 60%;
 }
 
-/* .sponsors-row-top, .sponsors-row-bottom {
-  width: 80%;
-  height: 40px;
-  background-color: pink;
-}
-
-.sponsors-row-top > img {
-  padding-right: 20px;
-} */
-
 .sponsors-col-left, .sponsors-col-left-center, .sponsors-col-right-center, .sponsors-col-right  {
   width: 146px;
   height: 90px;
@@ -576,16 +560,7 @@ span {
   padding: 69px 10px;
   float: right;
 }
-
-/* daprovare
-.container img {
-  height: 80px;
-  width: 200px;
-  border: 1px solid red;
-  object-fit: fill;
-} */
-/* tre */
-
+  /* tre */
 /* /corpo */
 
 /* pie di pagina */
@@ -593,25 +568,37 @@ footer {
   background-color: #32495b;
 }
 
+.footer-a {
+  height: 444px;
+}
+
 .a-col  {
   display: inline-block;
   margin-top: 40px;
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
-.footer-a li, a {
-  color: #fff;
+.footer-a.centrato li a, .footer-b.centrato li a {
+  color: #cbd6e2;
+}
+
+.footer-a li a:hover, .footer-b li a:hover, .footer-b a:hover {
+  color: #01a4bd
 }
 
 .footer-a li {
-  margin-bottom: 25px;
   display: block;
+}
+
+.footer-a li, .footer-b li {
+  margin-bottom: 25px;
 }
 
 .footer-a li:first-child {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 35px;
+  color: #fff;
 }
 
 #support {
@@ -621,12 +608,58 @@ footer {
   background-color: #fff;
 }
 
+#support:hover {
+  background-color: #cbd6e2;
+  color: #01a4bd;
+}
+
 .a-col ul ul {
   display: table;
 }
 
-.a-col ul ul li {
+.a-col ul .social li {
+  color: #fff;
   display: inline-block;
   margin-right: 35px;
+}
+
+.footer-b {
+  height: 230px;
+  margin-top: 50px;
+}
+
+.footer-b > ul {
+  display: block;
+  text-align: center;
+}
+
+.footer-b ul li {
+  margin-right: 35px;
+}
+
+.linea {
+  width: 100%;
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.bottom-left {
+  float: left;
+}
+.bottom-right {
+  float: right;
+  vertical-align: middle;
+}
+
+.bottom-right a {
+  margin-left: 30px;
+  color: #cbd6e2;
+}
+
+.bottom-left, .bottom-right {
+  margin-top: 50px;
 }
 /* / pie di pagina */
