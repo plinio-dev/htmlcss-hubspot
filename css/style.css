@@ -25,6 +25,10 @@ h4 {
   display: inline-block
 }
 
+ul {
+  list-style: none;
+}
+
 /* mix */
 .centrato {
   width: 70%;
@@ -93,7 +97,7 @@ h4 {
   transition: .3s ease-in-out;
 }
 
-.lista-menu li a:hover, .sx-lista li a:hover {
+ li a:hover {
   color: #01a4bd;
 }
 /* /hover */
@@ -493,7 +497,7 @@ span {
 }
 
 .tre-col-left .bottom p {
-  padding: 20px 0 60px;
+  padding: 20px 0 45px;
   font-weight: 500;
   line-height: 2;
   font-size: 16px;
@@ -568,14 +572,61 @@ span {
 }
 
 .tre-wrapper > img {
-  height: 577px;
-  padding: 81px 30px;
+  height: 522px;
+  padding: 69px 10px;
   float: right;
 }
+
+/* daprovare
+.container img {
+  height: 80px;
+  width: 200px;
+  border: 1px solid red;
+  object-fit: fill;
+} */
 /* tre */
 
 /* /corpo */
 
+/* pie di pagina */
 footer {
   background-color: #32495b;
 }
+
+.a-col  {
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+.footer-a li, a {
+  color: #fff;
+}
+
+.footer-a li {
+  margin-bottom: 25px;
+  display: block;
+}
+
+.footer-a li:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+#support {
+  display: table;
+  color: #32495b;
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.a-col ul ul {
+  display: table;
+}
+
+.a-col ul ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+/* / pie di pagina */
