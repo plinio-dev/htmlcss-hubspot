@@ -536,8 +536,8 @@ span {
 }
 
 .tre-wrapper > img {
-  height: 522px;
-  padding: 69px 10px;
+  width: 25%;
+  padding-top: 75px;
   float: right;
 }
   /* tre */
