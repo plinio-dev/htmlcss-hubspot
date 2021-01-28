@@ -311,9 +311,16 @@ span {
 #check1 {
   margin-left: 0;
 }
-
+.row1-uno {
+  transition: .3s ease-in-out;
+}
 .row2-uno {
   margin-top: 50px;
+}
+
+.col-left:hover, .col-center:hover, .col-right:hover, .row1-uno:hover {
+  box-shadow: 0 10px 50px -5px rgb(51 71 91 / 12%);
+  transform: scale(1.014);
 }
 
 .col-left, .col-center, .col-right {
@@ -322,6 +329,7 @@ span {
   height: 740px;
   padding-top: 20px;
   text-align: center;
+  transition: .3s ease-in-out;
 }
 
 .col-center {
