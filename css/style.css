@@ -133,10 +133,10 @@ li a {
 .sx-lista li:last-child {
   padding-left: 15px;
 }
+
 .dx-lista {
   float:right;
 }
-
 /* /navbar */
 
 /* nav-menu */
@@ -144,24 +144,23 @@ li a {
   background-color: #fff;
 }
 
-.nav-menu-wrapper.centrato {
-  position: relative;
+.nav-menu-wrapper {
+  padding: 22px 0;
 }
 
 #logo {
+  float: left;
   vertical-align: middle;
-}
-
-#logo, .lista-menu {
-  padding: 25px 0;
 }
 
 .lista-menu {
-  position: absolute;
-  right: 0;
-  top: 6px;
+  float: right;
   vertical-align: middle;
   color: #33475b;
+}
+
+.lista-menu > li {
+  vertical-align: sub;
 }
 
 .lista-menu li i, .lista-menu li  {
@@ -290,15 +289,16 @@ span {
 .col2-row1 ul li i {
   padding-top: 30px;
   margin: 0 15px;
-
 }
 
 #check1 {
   margin-left: 0;
 }
+
 .row1-uno {
   transition: .3s ease-in-out;
 }
+
 .row2-uno {
   margin-top: 50px;
 }
@@ -311,7 +311,6 @@ span {
 .col-left, .col-center, .col-right {
   width: calc((100% - 120px)/ 3);
   float: left;
-  /* height: 740px; */
   padding-top: 20px;
   text-align: center;
   transition: .3s ease-in-out;
@@ -401,6 +400,7 @@ span {
   padding: 27px;
   border-right: 1px solid white;
 }
+
 .row1-tab .cell1:last-child, .row2-tab .cell1:last-child {
   border-right: 0;
 }
@@ -491,7 +491,7 @@ span {
   padding-bottom: 40px;
   float: right
 }
-  /* tre */
+/* /tre */
 /* /corpo */
 
 /* pie di pagina */
